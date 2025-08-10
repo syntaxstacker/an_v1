@@ -1,6 +1,9 @@
+<script setup lang="ts">
+// Main app component
+</script>
+
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <TestComponent />
   </div>
 </template>
