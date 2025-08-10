@@ -10,7 +10,7 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[vue]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "octref.vetur"
   },
   // Auto fix
   "editor.codeActionsOnSave": {
@@ -98,5 +98,8 @@
   // Vue specific settings for Nuxt 4
   "vetur.validation.template": false,
   "vetur.validation.script": false,
-  "vetur.validation.style": false
+  "vetur.validation.style": false,
+  // Vetur formatting settings for better HTML formatting
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatterOptions": {}
 }

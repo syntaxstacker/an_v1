@@ -18,5 +18,8 @@ export default antfu({
     'vue/multi-word-component-names': 'off',
     // 允许 console.log 在开发环境中使用
     'no-console': 'warn',
+    // Vue 模板缩进规则
+    'vue/html-indent': ['error', 2],
+    'vue/script-indent': 'off',
   },
 })
