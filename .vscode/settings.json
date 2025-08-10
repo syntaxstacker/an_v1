@@ -4,13 +4,13 @@
   "editor.formatOnSave": true,
   // Use ESLint as the default formatter
   "[javascript]": {
-    "editor.defaultFormatter": "ms-vscode.vscode-eslint"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "ms-vscode.vscode-eslint"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   // Auto fix
   "editor.codeActionsOnSave": {
