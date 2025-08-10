@@ -1,7 +1,18 @@
 {
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
+
+  // Use ESLint as the default formatter
+  "[javascript]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
 
   // Auto fix
   "editor.codeActionsOnSave": {
@@ -47,5 +58,10 @@
     "scss",
     "pcss",
     "postcss"
-  ]
+  ],
+
+  // Vue specific settings for Nuxt 4
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false
 }

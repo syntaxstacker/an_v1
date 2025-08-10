@@ -3,7 +3,7 @@ const title = 'Welcome to Nuxt 4'
 const message = 'This project is configured with @antfu/eslint-config'
 
 // This is a test for ESLint rules
-console.warn('Test message')
+console.log('Test message')
 </script>
 
 <template>

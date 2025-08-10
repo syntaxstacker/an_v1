@@ -3,7 +3,9 @@ import antfu from '@antfu/eslint-config'
 export default antfu({
   vue: true,
   typescript: true,
-  stylistic: true,
+  stylistic: {
+    semi: false,
+  },
   ignores: [
     // 忽略 Nuxt 自动生成的文件
     '.nuxt',

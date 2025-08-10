@@ -69,3 +69,22 @@ This is a minimal Nuxt 4 application with Vue 3. The architecture follows standa
 2. Run `pnpm dev` to start development server with hot reloading
 3. Run `pnpm lint` to check code quality
 4. Run `pnpm build` to create production build
+
+## VSCode Setup
+
+To get the best development experience with real-time error highlighting and auto-formatting:
+
+1. **Required Extensions**:
+   - `Vue.volar` - Vue Language Features (official Vue extension)
+   - `ms-vscode.vscode-eslint` - ESLint integration
+   - `ms-vscode.vscode-typescript-next` - TypeScript support
+
+2. **Configuration**:
+   - ESLint validation is enabled for JavaScript, TypeScript, and Vue files
+   - Auto-fix on save is configured
+   - Stylistic rules are silenced in the IDE but still auto-fixed
+   - Vetur validation is disabled (use Volar instead)
+
+3. **Auto-formatting**:
+   - Code will be automatically formatted and fixed on save
+   - ESLint rules will be applied automatically
